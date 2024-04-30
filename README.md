@@ -16,7 +16,7 @@ You need to run the following commands to create a new environment.
 ```
 conda create -n medt python==3.8
 conda activate medt
-cd ../Med-Tuning-main
+cd ../Med-Tuning-Official-main
 pip install requirements.txt
 ```
 
@@ -74,7 +74,7 @@ Download the BraTS2019 datasets and organize them:
 ## Preparation
 Run the following commands to download the supervised pre-trained checkpoint of Swin-T and ViT-B/16.
 ```
-cd ../Med-Tuning-main/preckpt/
+cd ../Med-Tuning-Official-main/preckpt/
 wget https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz
 wget https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth
 ```
