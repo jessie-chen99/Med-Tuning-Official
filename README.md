@@ -21,7 +21,7 @@ pip install requirements.txt
 ```
 
 ## Data Preparation
-Download the BraTS2019/2020 datasets and organize them:
+Download the BraTS2019 datasets and organize them:
 ```python
 - Datasets
     - BraTS2019
@@ -76,6 +76,7 @@ Run the following commands to download the supervised pre-trained checkpoint of 
 ```
 cd ../Med-Tuning-main/preckpt/
 wget https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz
+wget https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth
 ```
 Then change the corresponding path in `configs/config.py`.
 
