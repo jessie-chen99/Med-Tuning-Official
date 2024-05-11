@@ -96,12 +96,11 @@ You can use one gpu or more than two gpus, just change `CUDA_VISIBLE_DEVICES` an
 ## Citation
 If our paper or code inspire your researches, please cite us by
 ```text
-@inproceedings{shen2024medtuning,
-  title={Med-Tuning: A New Parameter-Efficient Tuning Framework for Medical Volumetric Segmentation},
-  author={Jiachen Shen and Wenxuan Wang and Chen Chen and Jianbo Jiao and Jing Liu and Yan Zhang and Shanshan Song and Jiangyun Li},
-  booktitle={Medical Imaging with Deep Learning},
-  year={2024},
-  url={https://openreview.net/pdf?id=5D71lHj9HZ}
+@article{wang2023med,
+  title={Med-tuning: Exploring parameter-efficient transfer learning for medical volumetric segmentation},
+  author={Wang, Wenxuan and Shen, Jiachen and Chen, Chen and Jiao, Jianbo and Zhang, Yan and Song, Shanshan and Li, Jiangyun},
+  journal={arXiv preprint arXiv:2304.10880},
+  year={2023}
 }
 ```
 
