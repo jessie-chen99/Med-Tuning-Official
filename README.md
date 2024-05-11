@@ -105,4 +105,4 @@ If our paper or code inspire your researches, please cite us by
 ```
 
 ## Acknowledgement
-Thanks for the code from [Swin-Unet](https://github.com/HuCaoFighting/Swin-Unet), [timm](https://github.com/huggingface/pytorch-image-models).
+Great thanks for the code from [Swin-Unet](https://github.com/HuCaoFighting/Swin-Unet), [timm](https://github.com/huggingface/pytorch-image-models).
